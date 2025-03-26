@@ -10,12 +10,19 @@ public class Calculadora {
 
     //modificador de acesso = public
     //void = vazio | significa que este método não vai retornar nada.
-    public void somaDoisNumeros() {
-        System.out.println(10 + 10);
+    //alterando de void para int para resumo após vídeo 02 do dev magro "desafio do zero a vaga
+
+    //IMPORTANTE!!! se o objeto for estático "public static", ele não pode ser instanciado, ou seja
+    //não posso criar um objeto, exemplo: Calculadora calculadora = new Calculadora();
+    //Ao instanciar um objeto, você cria uma cópia dele, ao usar o objeto original (usando static), você não cria uma cópia
+    //usamos o método e funçao original. De acordo com o devmagro, seu uso é raro, usado em casos de que você precisa
+    //chamar uma determinada função apenas 1 vez
+    public static int somaDoisNumeros(int num1, int num2) {
+        return num1 + num2;
     }
 
-    public void subtraiDoisNumeros() {
-        System.out.println(10 - 9);
+    public static int subtraiDoisNumeros(int num1, int num2) {
+        return num1 + num2;
     }
 
     //aula 45 - passagem de parametros
