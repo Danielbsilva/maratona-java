@@ -18,6 +18,8 @@ public class EstudanteTest01 {
         estudante02.sexo = 'F';
 
         //aula 49 - parametros tipo referencia
+        //resumo - Quando você passa objetos como argumentos, na verdade você
+        //passa a referência, onde o objeto esta guardado na memória
         impressora.imprime(estudante01);
         impressora.imprime(estudante02);
 

@@ -1,5 +1,7 @@
 package academy.devdojo.maratonajava.javacore.Bintroducaometodos.dominio;
 
+import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+
 public class Calculadora {
 
     //metodos são parecidos com atributos, mas sua funcionalidade é completamente diferente
@@ -75,5 +77,27 @@ public class Calculadora {
         System.out.println("Num1 " + numero1);
         System.out.println("Num2 " + numero2);
     }
+    //Aula 52 Varargs
+    public void somaArray(int[] numeros){
+        int soma = 0;
+        for (int num: numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+    //VarArgs é uma sintaxe criada para simplificar algumas coisas
+    //VarArgs é um facilitador para criação de arrays/lista
+    //se já houve uma declaração de atributo no varargs, não pode ser colocado
+    //mais nenhum outro atributo, seja ela String/double ou qualquer outro
+    //correção, outros atributos podem ser adicionados, mas nesses casos
+    //o varargs SEMPRE tem que vir por último
+    public void somaVarArgs(int... numeros){
+        int soma = 0;
+        for (int num: numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+    }
+
 }
 
