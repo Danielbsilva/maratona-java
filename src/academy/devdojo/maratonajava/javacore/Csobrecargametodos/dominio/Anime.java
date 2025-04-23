@@ -6,6 +6,14 @@ public class Anime {
     private int episodios;
     private String genero;
 
+
+
+    //construtor ele não tem nenhum tipo de retorno, absolutamente nada.
+    //sintaxe para o construtor, exemplo
+    //modificador de acesso(public) seguido do nome da classe(Anime)
+    public Anime(){
+
+    }
     //sobrecarga de métodos é quando temos 2 funções com o mesmo nome
     //mas a quantidade ou tipos de parametros diferentes
     public void init(String nome, String tipo, int episodios) {
