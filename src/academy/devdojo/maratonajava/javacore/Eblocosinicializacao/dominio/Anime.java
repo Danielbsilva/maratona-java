@@ -7,7 +7,7 @@ public class Anime {
     //antes dos construtores e depois dos atributos
     //você abre e fecha as chaves {}
     //exemplo de bloco de inicialização ou "instância"
-    //como o nome diz, esse bloco SEMPRE vai ser executado quando o cógido
+    //como o nome diz, esse bloco SEMPRE vai ser executado quando o código
     //for iniciado
     //1 - Alocado espaço em memória para o objeto
     //2 -Cada atributo de classe é criado e inicializado com valores default ou o que for passado
