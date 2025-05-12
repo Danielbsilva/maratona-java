@@ -1,4 +1,8 @@
-package academy.devdojo.maratonajava.javacore.Gassossiacao.dominio;
+package academy.devdojo.maratonajava.javacore.Gassociacao.dominio;
+/*
+ *
+ */
+
 
 public class Time {
     private String nome;
