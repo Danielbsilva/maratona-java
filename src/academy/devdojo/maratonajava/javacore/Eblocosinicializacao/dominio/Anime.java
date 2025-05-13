@@ -9,10 +9,11 @@ public class Anime {
     //exemplo de bloco de inicialização ou "instância"
     //como o nome diz, esse bloco SEMPRE vai ser executado quando o código
     //for iniciado
-    //1 - Alocado espaço em memória para o objeto
-    //2 -Cada atributo de classe é criado e inicializado com valores default ou o que for passado
-    //3 - Bloco de inicialização é executado
-    //4 - Construtor é executado
+    // 0 - Bloco de inicialização estático é executado quando a JVM carregar classe
+    // 1 - Alocado espaço em memória para o objeto
+    // 2 -Cada atributo de classe é criado e inicializado com valores default ou o que for passado
+    // 3 - Bloco de inicialização é executado
+    // 4 - Construtor é executado
     {
         System.out.println("Dentro do bloco de inicialização");
         episodios = new int[100];
