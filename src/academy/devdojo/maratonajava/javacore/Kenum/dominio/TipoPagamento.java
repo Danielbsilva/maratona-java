@@ -21,4 +21,7 @@ public enum TipoPagamento {
     //usando abstract eu digo que ele em si não existe, o que existe é a implementação do seu método
     //calcularDesconto dentro das enumerações acima (DEBITO e CREDITO) através da sobreescrita
 
+    //metodo abstrato não pode ter corpo, você é obrigado a prover a implementação em outro lugar
+    //o que neste caso de enumeracao, criamos o corpo atraves de "debito" e "credito" acima
+    //realiando a sobreescrita do metodo
 }

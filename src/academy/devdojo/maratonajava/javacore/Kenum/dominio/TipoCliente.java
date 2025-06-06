@@ -22,7 +22,7 @@ public enum TipoCliente {
         /*
             Essa busca por atributos esta mais relacionado com boas práticas do que qualquer outra coisa.
             Se o banco de dados não conter o nome "PESSOA_FISICA" OU "PESSOA_PUBLICA", você pode utilizar esse método para verificar qual é.
-            Isso serve também para mensagens no console, gerar uma string "essa é uma pessoa física" para se comunicar com o usuário, etc. 
+            Isso serve também para mensagens no console, gerar uma string "essa é uma pessoa física" para se comunicar com o usuário, etc.
             É somente uma forma de encontrar o que o ID (identificador) daquele ENUM se refere.
          */
         for (TipoCliente tipoCliente : values()) {
